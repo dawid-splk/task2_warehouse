@@ -1,8 +1,10 @@
+server:
+  port : 8081
 spring:
   datasource:
     username: dawid
     url: jdbc:postgresql://localhost:5432/mydb
-    password: password
+    password: warehouse
   kafka:
     consumer:
       group-id: group-1

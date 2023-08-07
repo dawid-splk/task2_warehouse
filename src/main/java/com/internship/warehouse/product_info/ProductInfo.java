@@ -1,4 +1,4 @@
-package com.internship.warehouse.model;
+package com.internship.warehouse.product_info;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,12 +7,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "products")
+@Table(name = "product_availability")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Product {
+public class ProductInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

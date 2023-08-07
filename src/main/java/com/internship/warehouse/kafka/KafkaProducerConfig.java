@@ -35,6 +35,6 @@ public class KafkaProducerConfig {
     }
     @Bean
     public NewTopic topic() {
-        return new NewTopic("store_status", 2, (short) 1);
+        return new NewTopic("store_status", 1, (short) 1);
     }
 }

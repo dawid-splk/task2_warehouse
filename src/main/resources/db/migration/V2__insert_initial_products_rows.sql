@@ -1,4 +1,4 @@
-INSERT INTO products (id, quantity) VALUES
+INSERT INTO product_availability (id, quantity) VALUES
 (1, 15.0),
 (2, 7.5),
 (3, 88.0),
