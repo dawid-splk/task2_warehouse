@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: dawid
+    url: jdbc:postgresql://localhost:5432/mydb
+    password: password
+  kafka:
+    consumer:
+      group-id: group-1
+      auto-offset-reset: earliest
+      bootstrap-servers: localhost:9092
+  jpa:
+    hibernate:
+      ddl-auto: validate
